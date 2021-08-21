@@ -25,4 +25,4 @@ Westpac Interview Senior QE(Mohan)
             Components: Components are the modules of the application like Login, Registration, Vote, Popular Make, Popular Model, etc.
             Capability: A capability is the Combination of an attribute and a component
             Ex: Test the Secure attribute of the login component, we can then say the 'Login component is Secure When un-authorized user Do NOT have access to Buggy Car ratings’. 
-    •	Acceptance Testing: check the requirements of a specification or contract as per its delivery.UAT team will perform this testing and the Testing team will help UAT team to perform the testing.
+  •   Acceptance Testing: check the requirements of a specification or contract as per its delivery.UAT team will perform this testing and the Testing team will help UAT team         to perform the testing.
