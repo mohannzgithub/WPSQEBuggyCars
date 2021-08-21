@@ -5,9 +5,11 @@ Westpac Interview Senior QE(Mohan)
 4.	Buggy Car Performance Test
 
 1.Buggy Car Test approach
+
    1.1 Scope
    The testing approach for this Buggy car rating website shall be done in a fashion that will accommodate the Current functionality in Buggy car rating products being 
    developed for users on Register, login to view Popular Make and Model, and Provide Rankings for their Popular Make and Model by Entering their comments and Voting. 
+   
    1.2 Testing levels/Types & Roles and Responsibilities
      •	Unit Testing: Developers performed testing through programming on Individual Component 
      •	Integration Testing: Check the Data flow from one module to another module. Manual and Automation tester will perform this via API testing.
