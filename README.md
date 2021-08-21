@@ -19,7 +19,10 @@ Westpac Interview Senior QE(Mohan)
         o	Secure: To test any vulnerability in the application.
         o	Compliance: To test the expected results or any acceptance criteria.
         o	Responsive: Test the application in different browsers and in different screen widths.
+
       **Components:** Components are the modules of the application like Login, Registration, Vote, Popular Make, Popular Model, etc.
+ 
       **Capability**: A capability is the Combination of an attribute and a component
       Ex: Test the Secure attribute of the login component, we can then say the 'Login component is Secure When un-authorized user Do NOT have access to Buggy Car ratings’.
+  
     •	Acceptance Testing: check the requirements of a specification or contract as per its delivery. UAT /Testing team will perform this testing and the Testing team will help       the UAT team to perform the testing.
