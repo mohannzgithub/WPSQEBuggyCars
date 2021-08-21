@@ -11,6 +11,7 @@ Westpac Interview Senior QE(Mohan)
    developed for users on Register, login to view Popular Make and Model, and Provide Rankings for their Popular Make and Model by Entering their comments and Voting. 
    
    1.2 Testing levels/Types & Roles and Responsibilities 
+   
      •	Unit Testing: Developers performed testing through programming on Individual Component  
      •	Integration Testing: Check the Data flow from one module to another module. Manual and Automation tester will perform this via API testing.  
      •	System Testing: System testing enables testers to ensure that the product meets business requirements, as well as determine that it runs smoothly within its operating           environment. Manual and Automation testers perform the System testing in Dev and QA Environments. I am following the testing technique called ACC (Attribute, 
