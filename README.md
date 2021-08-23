@@ -4,7 +4,7 @@ Westpac Interview Senior QE(Mohan)
 3.	Buggy Car UI and API Test automation
 4.	Buggy Car Performance Test
 
-1.Buggy Car Test approach
+#1.Buggy Car Test approach
 
    1.1 Scope
    The testing approach for this Buggy car rating website shall be done in a fashion that will accommodate the Current functionality in Buggy car rating products being 
@@ -25,4 +25,38 @@ Westpac Interview Senior QE(Mohan)
               o	Responsive: Test the application in different browsers and in different screen widths.    
             Components: Components are the modules of the application like Login, Registration, Vote, Popular Make, Popular Model, etc.
             Capability: A capability is the Combination of an attribute and a component
-            Ex: Test the Secure attribute of the login component, we can then say the 'Login component is Secure When un-authorized user Do NOT have access to Buggy Caratings’. 
+            Ex: Test the Secure attribute of the login component, we can then say the 'Login component is Secure When un-authorized user Do NOT have access to Buggy Caratings’.
+            
+ #2.Buggy Car Test artifacts (Test plan, Test Scenarios & bug report)
+ 
+ [Download ACC Matrix Test Artifact](https://duckduckgo.com)
+ 
+ ![image](https://user-images.githubusercontent.com/88992582/130419471-432f7574-7028-4ea6-b4c2-37914595414a.png)
+
+ 
+  Note:
+      This document contains three tabs.
+      Summary: 360 view of the overall testing progress, summary of the test execution including number of open/close defects, number of failed capabilities and total number of       capabilities or scenarios
+      Scenarios: Details of each capability/scenario that has been tested, I also have added few comments on the capabilities that have failed
+      Defects: this tabs contains a bug report, document is ready to perform a defect triage and keep record of the team conversation around each defect, collaboration is key:)
+#3.Test automation
+3.1 Test strategy
+For this use case I have made use of the testing quadrant and test pyramid, I have break the automation in two projects, one project focus in integration testing validating the API, and the other testing focus at UI or functional level, testing user interactions, since UI test tends to add more cost and maintenance effort, is always a good practice to cover critical functionalities at integration level and use UI automation as functional testing support.
+
+3.2 Automation projects can be found:
+
+ [Integration Test](https://github.com/mohannzgithub/WestpacBuggyCarAPIProject)
+ [UI Test](https://github.com/mohannzgithub/WestpacBuggycarsUIProject)
+ 
+Note:
+Setup instructions can be found on each project
+
+UI Report:
+
+![image](https://user-images.githubusercontent.com/88992582/130420883-6e477fc9-ef69-43cf-85e9-64fc8478ea6e.png)
+
+Integration Report:
+
+![image](https://user-images.githubusercontent.com/88992582/130421029-5ca0a424-fa84-4877-8a32-66d6a15d20fd.png)
+
+
