@@ -59,7 +59,7 @@ Setup instructions can be found on each project
 # 4.Performance Testing Approach:
 we do the performance test for the API. Prepare the Below performance Workmix template based on the Approximate Usage of the application based on the analytics.
 
-Ex:let's say if 3600 is the target users per hour(THROUGHPUT) then we have below configuration to test API endpoints.
+Ex:let's say if 3600 is the target users per hour(THROUGHPUT) then we have below configuration to test both get and Post end points of Buggy cars API
 
 | Syntax | Description |
 | ----------- | ----------- |
@@ -68,3 +68,5 @@ Ex:let's say if 3600 is the target users per hour(THROUGHPUT) then we have below
 |Iteration pacing|	20|
 |Iterations/hr per vuser|	180|
 |Total Iterations/hr|	3600|
+
+Tools: We use HP Load runner /JMeter to do the performance test
