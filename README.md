@@ -29,16 +29,20 @@ Westpac Interview Senior QE(Mohan)
             
  #2.Buggy Car Test artifacts (Test plan, Test Scenarios & bug report)
  
- [Download ACC Matrix Test Artifact](https://duckduckgo.com)
+ [Download ACC Matrix Test Artifact]
  
  ![image](https://user-images.githubusercontent.com/88992582/130419471-432f7574-7028-4ea6-b4c2-37914595414a.png)
 
  
   Note:
       This document contains three tabs.
-      Summary: 360 view of the overall testing progress, summary of the test execution including number of open/close defects, number of failed capabilities and total number of       capabilities or scenarios
-      Scenarios: Details of each capability/scenario that has been tested, I also have added few comments on the capabilities that have failed
+      
+      Summary: 360 view of the overall testing progress, summary of the test execution including number of open/close defects, number of failed capabilities and total number of       capabilities or scenarios.
+      
+      Scenarios: Details of each capability/scenario that has been tested, I also have added few comments on the capabilities that have failed.
+      
       Defects: this tabs contains a bug report, document is ready to perform a defect triage and keep record of the team conversation around each defect, collaboration is key:)
+ 
 #3.Test automation
 3.1 Test strategy
 For this use case I have made use of the testing quadrant and test pyramid, I have break the automation in two projects, one project focus in integration testing validating the API, and the other testing focus at UI or functional level, testing user interactions, since UI test tends to add more cost and maintenance effort, is always a good practice to cover critical functionalities at integration level and use UI automation as functional testing support.
@@ -46,6 +50,7 @@ For this use case I have made use of the testing quadrant and test pyramid, I ha
 3.2 Automation projects can be found:
 
  [Integration Test](https://github.com/mohannzgithub/WestpacBuggyCarAPIProject)
+ 
  [UI Test](https://github.com/mohannzgithub/WestpacBuggycarsUIProject)
  
 Note:
