@@ -29,7 +29,7 @@
             
  # 2.Buggy Car Test artifacts (Test plan, Test Scenarios & bug report)
  
- [Download ACC Matrix Test Artifact]
+ Please find above attached ACC matrix
  
  ![image](https://user-images.githubusercontent.com/88992582/130419471-432f7574-7028-4ea6-b4c2-37914595414a.png)
 
