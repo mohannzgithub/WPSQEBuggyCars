@@ -55,13 +55,3 @@ For this use case I have made use of the testing quadrant and test pyramid, I ha
  
 Note:
 Setup instructions can be found on each project
-
-UI Report:
-
-![image](https://user-images.githubusercontent.com/88992582/130420883-6e477fc9-ef69-43cf-85e9-64fc8478ea6e.png)
-
-Integration Report:
-
-![image](https://user-images.githubusercontent.com/88992582/130421029-5ca0a424-fa84-4877-8a32-66d6a15d20fd.png)
-
-
