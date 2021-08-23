@@ -1,10 +1,10 @@
-Westpac Interview Senior QE(Mohan)
+# Westpac Interview Senior QE(Mohan)
 1.	Buggy Car Test approach
 2.	Buggy Car Test artifacts (Test plan, Test Scenarios & bug report)
 3.	Buggy Car UI and API Test automation
 4.	Buggy Car Performance Test
 
-#1.Buggy Car Test approach
+# 1.Buggy Car Test approach
 
    1.1 Scope
    The testing approach for this Buggy car rating website shall be done in a fashion that will accommodate the Current functionality in Buggy car rating products being 
@@ -27,7 +27,7 @@ Westpac Interview Senior QE(Mohan)
             Capability: A capability is the Combination of an attribute and a component
             Ex: Test the Secure attribute of the login component, we can then say the 'Login component is Secure When un-authorized user Do NOT have access to Buggy Caratings’.
             
- #2.Buggy Car Test artifacts (Test plan, Test Scenarios & bug report)
+ # 2.Buggy Car Test artifacts (Test plan, Test Scenarios & bug report)
  
  [Download ACC Matrix Test Artifact]
  
@@ -43,7 +43,7 @@ Westpac Interview Senior QE(Mohan)
       
       Defects: this tabs contains a bug report, document is ready to perform a defect triage and keep record of the team conversation around each defect, collaboration is key:)
  
-#3.Test automation
+# 3.Test automation
 3.1 Test strategy
 For this use case I have made use of the testing quadrant and test pyramid, I have break the automation in two projects, one project focus in integration testing validating the API, and the other testing focus at UI or functional level, testing user interactions, since UI test tends to add more cost and maintenance effort, is always a good practice to cover critical functionalities at integration level and use UI automation as functional testing support.
 
