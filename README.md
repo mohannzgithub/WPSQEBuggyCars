@@ -55,3 +55,16 @@ For this use case I have made use of the testing quadrant and test pyramid, I ha
  
 Note:
 Setup instructions can be found on each project
+
+# 4.Performance Testing Approach:
+we do the performance test for the API. Prepare the Below performance Workmix template based on the Approximate Usage of the application based on the analytics.
+
+Ex:let's say if 3600 is the target users per hour(THROUGHPUT) then we have below configuration to test API endpoints.
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Virtual users|	20|
+|Time per iteration(secs)|	10|
+|Iteration pacing|	20|
+|Iterations/hr per vuser|	180|
+|Total Iterations/hr|	3600|
